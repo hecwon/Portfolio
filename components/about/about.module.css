@@ -42,16 +42,20 @@
   }
 }
 @media (max-aspect-ratio: 9/16) {
+  .aboutContainer {
+    height: auto;
+    width: 95vw;
+  }
+  .about {
+    flex-direction: column;
+    font-size: 20px;
+  }
   .title {
     justify-content: center;
   }
   .pfp {
     max-width: 50vw;
     max-height: 50vw;
-  }
-  .about {
-    flex-direction: column;
-    font-size: 20px;
   }
   .description {
     width: 80vw;

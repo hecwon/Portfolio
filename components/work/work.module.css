@@ -2,6 +2,7 @@
   width: 80vw;
   padding-bottom: 15vh;
 }
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -20,31 +21,27 @@
 .workGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 20vw;
   row-gap: 2rem;
   height: auto;
 }
 
 .webScreencap {
   height: auto;
+  width: 40vw;
   margin: auto;
   max-width: 742.4px;
   padding-bottom: 30px;
+  object-fit: contain;
 }
 
-.gifcap {
-  display: flex;
-  margin: auto;
-  padding: 60px 0px;
-  transform: scale(140%);
-}
-
-.screencap {
-  width: auto;
+.mobileScreencap {
+  width: 1fr;
   height: auto;
 }
 
 .description {
-  max-width: 30vw;
+  width: 40vw;
   padding: 40px 100px;
   margin: 40px;
 }
@@ -60,20 +57,13 @@
     padding: 10px 50px;
     margin: 10px;
   }
-  .screencaps {
-    max-height: 20vh;
-    height: auto;
-  }
-
   .webScreencap {
     max-width: 45vw;
   }
-
   .gifcap {
     height: auto;
     margin: auto;
     margin: auto;
-    transform: scale(100%);
   }
 }
 
@@ -85,13 +75,21 @@
     flex-direction: column-reverse;
   }
 
+  .workGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90vw;
+    row-gap: 2rem;
+    height: auto;
+  }
+
   .description {
     max-width: 50vw;
     padding: 20px 50px;
     margin: 10px;
   }
   .webScreencap {
-    max-width: 100vw;
+    width: 80vw;
   }
   .screencaps {
     display: grid;
@@ -103,12 +101,7 @@
     height: auto;
   }
   .description {
-    font-size: 19px;
+    font-size: 20px;
     width: 100vw;
-  }
-
-  .gifcap {
-    margin: auto;
-    transform:scale(110%)
   }
 }

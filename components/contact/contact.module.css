@@ -77,9 +77,55 @@
 
 @media (max-aspect-ratio: 9/16) {
   .contactContainer {
-    max-width: 90vw;
+    max-width: 80vw;
   }
+
   .formGrid {
     width: 80vw;
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+
+  .name {
+    width: 78vw;
+    border-radius: 5px;
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 20px;
+    padding: 6px;
+    padding-left: 10px;
+  }
+
+  .email {
+    width: 78vw;
+    border-radius: 5px;
+    border: none;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 20px;
+    padding: 6px;
+    padding-left: 10px;
+}
+
+  .message {
+    width: 78vw;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 6px;
+    padding-left: 10px;
+  }
+
+  .submit {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    justify-self: center;
   }
 }

@@ -13,24 +13,21 @@ export default function Work () {
       <div id='puppymates' className={styles.projects}>
         <br/>
           <div className={styles.workGrid}>
-            <div className={styles.screencap}>
             <Image
+              className={styles.mobileScreencap}
               width={950 * .4}
               height={1794 * .4}
               src='/eventHome.png'
-              layout='responsive'
               alt="Puppymates Event Home Screenshot"
             />
           </div>
-          <div className={styles.screencap}>
+          <div className={styles.mobileScreencap}>
             <Image
               width={950 * .4}
               height={1794 * .4}
               src='/createEvent.png'
-              layout='responsive'
               alt="Puppymates Create Event Screenshot"
             />
-          </div>
         </div>
           <div className={styles.description}>
             <h2>
@@ -63,16 +60,14 @@ export default function Work () {
         </div>
       </div>
       <div id='atelier' className={styles.projects}>
-        <div className={styles.gifcap}>
           {/* to-do: fix Image component to make responsive GIF */}
-          <img
-            src='atelier.gif'
-            width='480'
-            height='308'
+          <Image
+            className={styles.webScreencap}
+            src='/atelier.gif'
+            width={480}
+            height={308}
             alt=''
-            />
-
-        </div>
+          />
         <div className={styles.description}>
           <h2>Atelier</h2>
           <p>E-commerce &quot;Product Page&quot; overhaul using pre-existing backend. This is a sample of the &quot;Ask A Question&quot; modal that I built. Later on, my team and I converted the backend to microservice architecture as well.</p>
