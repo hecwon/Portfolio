@@ -1,5 +1,6 @@
 import styles from './about.module.css';
 import Image from 'next/image';
+import PFP from '../../public/PFP.jpeg';
 
 export default function About () {
   return (
@@ -10,7 +11,7 @@ export default function About () {
       <div className={styles.about}>
         <Image
           className={styles.pfp}
-          src='/PFP.jpg'
+          src={PFP}
           width={400}
           height={400}
           alt="Hector Wong Profile Pic"

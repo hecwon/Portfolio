@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import Work from '../../components/work/page';
+import Work from '../../components/work/work';
 import Card from '../../components/hero/card';
 import About from '../../components/about/about';
 import Contact from '../../components/contact/contact';
