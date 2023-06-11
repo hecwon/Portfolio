@@ -9,14 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/react-slick": "^0.23.10",
+    "axios": "^1.4.0",
     "dotenv": "^16.1.4",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "slick-carousel": "^1.8.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
