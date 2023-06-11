@@ -5,9 +5,11 @@ import styles from './blob.module.css';
 export default function Blob () {
   let blob: HTMLElement | null
 
-  window.addEventListener('mousemove', (event) => {
-    updateBlobPos(event.clientX, event.clientY);
-  })
+  if (window) {
+    window.addEventListener('mousemove', (event) => {
+      updateBlobPos(event.clientX, event.clientY);
+    })
+  }
 
   const updateBlobPos: (x: number, y: number) => void = (x, y) => {
     if (!blob) {
