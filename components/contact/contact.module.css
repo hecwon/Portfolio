@@ -71,6 +71,9 @@
 }
 
 @media (max-aspect-ratio: 9/16) {
+  .contactContainer {
+    max-width: 90vw;
+  }
   .formGrid {
     width: 80vw;
   }

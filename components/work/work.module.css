@@ -79,7 +79,7 @@
 
 /* --------------Mobile-------------- */
 
-@media (max-aspect-ratio: 2/3) {
+@media (max-aspect-ratio: 9/16) {
   .projects {
     display: flex;
     flex-direction: column-reverse;
@@ -104,6 +104,7 @@
   }
   .description {
     font-size: 19px;
+    width: 100vw;
   }
 
   .gifcap {
