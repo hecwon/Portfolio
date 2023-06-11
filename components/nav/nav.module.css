@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 6px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 4vh;
+  width: fit-content;
+  margin: 0px 5px;
+  padding: 0px 10px;
+  font-size: calc(12px + 0.5vw);
+}
+
+.button:hover {
+  cursor: default;
+  animation: hover 1s linear;
+  background-color: rgb(20, 20, 20);
+  opacity: 50%;
+}
+
+@media (max-aspect-ratio: 4/3) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media (max-aspect-ratio: 9/16) {
+  .nav{
+    justify-content: space-evenly;
+  }
+  .button {
+    font-size: 23px;
+  }
+}
