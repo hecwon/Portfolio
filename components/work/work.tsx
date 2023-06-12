@@ -10,7 +10,7 @@ export default function Work () {
       <h1 className={styles.title}>
           WORK
       </h1>
-      <div id='puppymates' className={styles.projects}>
+      <div id='puppymates' className={styles.project}>
         <br/>
           <div className={styles.workGrid}>
             <Image
@@ -28,19 +28,19 @@ export default function Work () {
               alt="Puppymates Create Event Screenshot"
             />
         </div>
-          <div className={styles.description}>
-            <h2>
-              Puppymates
-            </h2>
-            <p>
-              React Native application for dog owners to &apos;swipe&apos; on other dogs to set up play dates, as well as events. Here is a sample of the 2 main &apos;Events&apos; components, which I implemented.
-            </p>
-            <p>
-              JavaScript{<br/>}React Native{<br/>}Express.js{<br/>}Node.js{<br/>}Postgres
-            </p>
-          </div>
+        <div className={styles.description}>
+          <h2>
+            Puppymates
+          </h2>
+          <p>
+            React Native application for dog owners to &apos;swipe&apos; on other dogs to set up play dates, as well as events. Here is a sample of the 2 main &apos;Events&apos; components, which I implemented.
+          </p>
+          <p>
+            JavaScript{<br/>}React Native{<br/>}Express.js{<br/>}Node.js{<br/>}Postgres
+          </p>
+        </div>
       </div>
-      <div id='sneakerhead' className={styles.projects}>
+      <div id='sneakerhead' className={styles.project}>
         <Image
           className={styles.webScreencap}
           src='/sneakerheadLanding.png'
@@ -58,7 +58,7 @@ export default function Work () {
           <p>JavaScript{<br/>}React{<br/>}Chakra{<br/>}Express.js{<br/>}Node.js{<br/>}MongoDB</p>
         </div>
       </div>
-      <div id='atelier' className={styles.projects}>
+      <div id='atelier' className={styles.project}>
           {/* to-do: fix Image component to make responsive GIF */}
           <Image
             className={styles.webScreencap}
