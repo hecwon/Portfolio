@@ -41,9 +41,9 @@
     width: 55vw;
   }
 }
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 9/16), (pointer: none), (pointer: coarse) {
   .aboutContainer {
-    height: auto;
+    height: 100%;
     width: 95vw;
     text-align: center;
   }

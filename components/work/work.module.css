@@ -49,7 +49,7 @@ workContainer
   height: auto;
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 9/16), (pointer: none), (pointer: coarse) {
   .workContainer {
     width: 95%;
   }

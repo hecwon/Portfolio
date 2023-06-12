@@ -75,7 +75,7 @@
   text-align: center;
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 9/16), (pointer: none), (pointer: coarse) {
   .contactContainer {
     max-width: 95%;
   }
