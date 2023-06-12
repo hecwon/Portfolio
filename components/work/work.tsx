@@ -20,9 +20,8 @@ export default function Work () {
               src='/eventHome.png'
               alt="Puppymates Event Home Screenshot"
             />
-          </div>
-          <div className={styles.mobileScreencap}>
             <Image
+              className={styles.mobileScreencap}
               width={950 * .4}
               height={1794 * .4}
               src='/createEvent.png'

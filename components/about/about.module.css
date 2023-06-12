@@ -45,6 +45,7 @@
   .aboutContainer {
     height: auto;
     width: 95vw;
+    text-align: center;
   }
   .about {
     flex-direction: column;
@@ -59,6 +60,5 @@
   }
   .description {
     width: 80vw;
-    text-align: center;
   }
 }

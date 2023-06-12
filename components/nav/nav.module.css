@@ -34,9 +34,10 @@
 
 @media (max-aspect-ratio: 9/16) {
   .nav{
+    padding: initial;
     justify-content: space-evenly;
   }
   .button {
-    font-size: 23px;
+    font-size: 19px;
   }
 }
