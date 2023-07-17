@@ -18,9 +18,9 @@ export default function About () {
         />
         <div className={styles.description}>
           <h2>Generalist in Life,{<br/>}Specialist in React.</h2><br/>
-            Thank you so much for visiting my humble portfolio. My name is Hector and I am a full stack software developer that specializes in React.{<br/>}{<br/>}
-            I like to build things that provide value, bring joy, or entertainment.{<br/>}{<br/>}
-            My ultimate goal in life is to make the world a better place. I already did the first step (building this page). The next step is building other, better, cooler, more helpful stuff. I believe the best results come from teamwork.{<br/>}{<br/>}
+            Thanks for stopping by! My name is Hector and I am a full stack software developer that currently specializes in React applications.{<br/>}{<br/>}
+            I have a personal intersest in building things that provide value, bring joy, or entertainment.{<br/>}{<br/>}
+            When I&apos;m not coding, you can find me shooting hoops at the park, working on my swing at the golf range, or practicing my Bear Grylls impression in nature.{<br/>}{<br/>}
             <span style={{fontFamily: "Space Mono", fontSize: '30px'}}>LET&apos;S BUILD TOGETHER.</span>
         </div>
       </div>

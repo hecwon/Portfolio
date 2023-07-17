@@ -2,6 +2,7 @@
 
 import styles from './work.module.css';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Work () {
 
@@ -36,8 +37,11 @@ export default function Work () {
             React Native application for dog owners to &apos;swipe&apos; on other dogs to set up play dates, as well as events. Here is a sample of the 2 main &apos;Events&apos; components, which I implemented.
           </p>
           <p>
-            JavaScript{<br/>}React Native{<br/>}Express.js{<br/>}Node.js{<br/>}Postgres
+            JavaScript{<br/>}React Native{<br/>}Express.js{<br/>}Node.js{<br/>}PostgreSQL
           </p>
+          <Link href='https://github.com/blueOceanOne/PuppyMates'>
+            <Image src='/terminal1.png' alt='' width={32} height={32}/>
+          </Link>
         </div>
       </div>
       <div id='sneakerhead' className={styles.project}>
@@ -56,10 +60,12 @@ export default function Work () {
             React application for sneaker enthusiasts to test their knowledge with a database of over 6000 documents. This was a personal full stack application built in 24 hours. Here is a sample of the landing page.
           </p>
           <p>JavaScript{<br/>}React{<br/>}Chakra{<br/>}Express.js{<br/>}Node.js{<br/>}MongoDB</p>
+          <Link href='https://github.com/hecwon/sneakerhead'>
+            <Image src='/terminal1.png' alt='' width={32} height={32}/>
+          </Link>
         </div>
       </div>
       <div id='atelier' className={styles.project}>
-          {/* to-do: fix Image component to make responsive GIF */}
           <Image
             className={styles.webScreencap}
             src='/atelier.gif'
@@ -70,7 +76,10 @@ export default function Work () {
         <div className={styles.description}>
           <h2>Atelier</h2>
           <p>E-commerce &quot;Product Page&quot; overhaul using pre-existing backend. This is a sample of the &quot;Ask A Question&quot; modal that I built. Later on, my team and I converted the backend to microservice architecture as well.</p>
-          <p>JavaScript{<br/>}React{<br/>}Express.js{<br/>}Node.js{<br/>}</p>
+          <p>JavaScript{<br/>}React{<br/>}Express.js{<br/>}Node.js{<br/>}PostgreSQL{<br/>}</p>
+          <Link href='https://github.com/Mummies-SDC/mummies-qa-hw'>
+            <Image src='/terminal1.png' alt='' width={32} height={32}/>
+          </Link>
         </div>
       </div>
     </div>

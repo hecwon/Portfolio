@@ -49,6 +49,28 @@ workContainer
   height: auto;
 }
 
+@media (max-aspect-ratio: 1/1) {
+  .workContainer {
+    width: 90vw;
+  }
+  .project {
+    flex-direction: column-reverse;
+  }
+  .workGrid {
+    width: 95%;
+    translate: initial;
+  }
+  .webScreencap {
+    width: 95%;
+  }
+  .description {
+    width: 80%;
+    text-align: center;
+    max-width: initial;
+    translate: 10%;
+  }
+}
+
 @media (max-aspect-ratio: 9/16), (pointer: none), (pointer: coarse) {
   .workContainer {
     width: 95%;
