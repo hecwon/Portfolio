@@ -37,7 +37,7 @@ export default function Contact () {
   }
 
   return ( submitStatus === 'notSubmitted' ?
-    <div className={styles.contactContainer}>
+    <div id="Contact" className={styles.contactContainer}>
       <h1 className={styles.title}>
         WRITE ME
       </h1>
